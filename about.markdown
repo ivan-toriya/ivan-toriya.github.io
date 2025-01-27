@@ -4,15 +4,14 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hey, I'm Ivan.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I'm currently working with data at Precis Digital as [ivan-toriya-precis](https://github.com/ivan-toriya-precis).
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I have 6+ years of experience in analytics and digital advertising. Worked as a Data Analyst, Data Engineer, Analytics Engineer, and Product Analyst with clients in e-commerce, SaaS, fintech.
 
+Tech Stack:
 
-[jekyll-organization]: https://github.com/jekyll
+- Python, SQL
+- GCP, AWS
+- Airflow, dbt

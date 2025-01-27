@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Loop-invariant code motion"
-categories: python, programming
 ---
 
 While watching Anthony Shaw's PyCon US [talk](https://youtu.be/YY7yJHo0M5I?t=659) I came across "loop invariance" and the technic that compilers do called "loop-invariant code motion". As I mostly used interpreted language (Python) and only recently started to look into compiled one (Go), it was interesting to learn what compilers can do for optimization. For me it was obvious not to put redundant computations in a hot loop, but with "loop-invariant code motion" it's different, it doesn't affect performance and even improves readability.

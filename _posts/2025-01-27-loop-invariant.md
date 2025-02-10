@@ -55,7 +55,7 @@ len() outside the loop: 0.70s
 outside_loop() is faster than inside_loop() by a factor of 1.57
 ```
 
-So for CPython, it's ~144% faster, adn for PyPy, it's ~57% faster. But look at the absolute time, the PyPy is incredibly more performant. I'm not really sure that the "loop-invariant code motion" is actually applied in the PyPy implementation at all, as the difference is still quite substantial. So, I attribute the speedup due to general PyPy optimizations.
+So for CPython, it's ~144% faster, and for PyPy, it's ~57% faster. But look at the absolute time, the PyPy is incredibly more performant. I'm not really sure that the "loop-invariant code motion" is actually applied in the PyPy implementation at all, as the difference is still quite substantial. So, I attribute the speedup due to general PyPy optimizations.
 
 But now, let's look how Go compiler handles it.
 
